@@ -8,5 +8,37 @@
 (/ 6 2)
 (+ (* 5 5) (+ (* 3 (/ 12 4)) 4))
 "hello world"
+(string-append "hello" "world")
+(string-append "hello " "world")
+(string-append "hello" " " "world")
+ (+ (string-length "hello world") 20)
+31
+(+ (string-length "hello world") 20)
+     
+31
+ (number->string 42)
+"42"
 
+(number->string 56)
+"56"
+
+ (number->string 100)
+"100"
+
+ (string->number "42")
+42
+
+ (>= 10 10)
+#true
+
+ (<= -1 0)
+#true
+
+ (string=? "design" "tinker")
+#false
+
+ (and (or (= (string-length "hello world")
+            (string->number "11"))
+         (string=? "hello world" "good morning"))
+     (>= (+ (string-length "hello world") 60) 80))
 
