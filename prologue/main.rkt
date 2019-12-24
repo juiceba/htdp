@@ -42,3 +42,14 @@
          (string=? "hello world" "good morning"))
      (>= (+ (string-length "hello world") 60) 80))
 
+; Inputs and Outputs
+
+ ;(define (FunctionName InputName) BodyExpression)
+ 
+ (define (square num) (* num num))
+
+ (square 1)
+ (square 2)
+ (square 3) ;(FunctionName ArgumentExpression)   
+ (square 4)
+ (square 5)
