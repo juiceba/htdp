@@ -44,9 +44,10 @@
 
 ; Inputs and Outputs
 
- ;(define (FunctionName InputName) BodyExpression)
+ ;(define (FunctionName InputName) BodyExpression) 
  
  (define (square num) (* num num))
+ ;(define (y x) (* x x))
 
  (square 1)
  (square 2)
