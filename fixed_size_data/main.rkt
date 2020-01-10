@@ -9,3 +9,21 @@
  (define (cartesian_point x y) (sqrt (+ (square x) (square y))))
 
  (cartesian_point 3 4)
+
+;1.2
+
+(define prefix "hello")
+(define suffix "world")
+
+(string-append "hello_" "world")
+
+;1.3
+
+(+ (string-length "hello world") 20)
+
+(+ (string-length (number->string 42)) 2)
+
+(define str "helloworld")
+(define i 5)
+
+(string-append (substring str 0 5) "_" (substring str 5 10))
