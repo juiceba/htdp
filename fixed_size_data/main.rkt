@@ -26,4 +26,16 @@
 (define str "helloworld")
 (define i 5)
 
-(string-append (substring str 0 5) "_" (substring str 5 10))
+(string-append (substring str 0 i) "_" (substring str i 10))
+
+;1.5 booleans
+
+(define sunny #true)
+(define friday #false)
+
+(or (not sunny) friday)
+
+
+ 
+
+
