@@ -35,6 +35,23 @@
 
 (or (not sunny) friday)
 
+;1.6 exercise 8
+
+; write a function called validate_password which takes 1 arg of string
+; check whether the password is at least 8 characters long
+; if it is return "good password"
+; if it is not return "password must be 8 characters long"
+
+
+  (define (validate_password text)
+
+    (if (>= (string-length text) 8)
+        "goooooood password"
+        "try for 8 characters" ))
+
+  (validate_password "beefy")
+  (validate_password "doobiedoobie")
+
 
  
 
